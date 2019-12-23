@@ -1,29 +1,6 @@
-# [MULE: Multimodal Universal Language Embedding (AAAI 2020 Oral)](https://arxiv.org/pdf/1909.03493.pdf)
-
- This repository implements:
-
-Donghyun Kim, Kuniaki Saito, Kate Saenko, Stan Sclaroff, Bryan A. Plummer. 
-
-[MULE: Multimodal Universal Language Embedding. AAAI, 2020 (Oral).](https://arxiv.org/pdf/1909.03493.pdf)
-
-Our project can be found in [here](http://cs-people.bu.edu/donhk/research/MULE.html).
+# [MULE: Multimodal Universal Language Embedding (MULE 2020 Oral)](https://arxiv.org/pdf/1909.03493.pdf)
 
 ![](docs/fig1.png)
-
-## Environment
-This code was tested with Python 2.7 and Tensorflow 1.2.1.
-
-## Preparation
-
-1. Download data
-- Download data from [here](https://drive.google.com/file/d/1xYGfsDBwDyvoztXNvmO1BOM0vzv2P8Oe/view?usp=sharing)
-- Unzip the file and place the data in the repo (All data files should be in ./data)
-
-2. Download FastText
-
-- `sh fetch_fasttext_embeddings.sh`
-
-
 
 ## Training and Testing
   ```Shell
@@ -51,7 +28,7 @@ If you find our code useful please consider citing:
 
     @inproceedings{kimMULEAAAI2020,
       title={{MULE: Multimodal Universal Language Embedding}},
-      author={Donghyun Kim and Kuniaki Saito and Kate Saenko and Stan Sclaroff and Bryan A. Plummer},
+      author={Donghyun Kim and Kuniaki Saito and Kate Saenko and Stan Sclaroff and Bryan A Plummer},
       booktitle={AAAI Conference on Artificial Intelligence},
       year={2020}
     }
